@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="js.js"></script>
+	<title>Reistro_Bankred</title>
+</head>
+
+<header>
+	<div class="logo"><a href="index.html"><img src="im/Titulo.png"></a></div>
+	<nav class="link">
+		<a href="Acceder.html">Acceder</a>
+		<a href="reistro.html">Crear Cuenta</a>
+	</nav>
+	
+</header>
+<body class="fondoRegistro">
+	<div class="registro">
+		
+		<form class="formulario" name="formulario" method="post" action="procesardatos.php">
+			<h1>Crea tu cuenta</h1>
+		    <h3>con nosotros tu dinero estara seguro</h3>
+			<p id="lbl">Nombre</p>
+			<input type="text" name="txtnombre" id="txtnombre">
+			<p id="lbl">Apellido</p>
+			<input type="text" name="txtapellido" id="txtapellido">
+			<p id="lbl">CURP</p>
+			<input type="text" name="CURP" id="CURP">
+			<p id="lbl">Correo</p>
+			<input type="email" name="Correo">
+			<p id="lbl">Contraseña</p>
+			<input type="password" name="password" id="password">
+			<p id="lbl">Fecha de nacimiento</p>
+			
+			<input type="text" name="YEAR" class="fecha" id="year" placeholder="Año">
+			<input type="text" name="MM" class="fecha" placeholder="Mes">
+			<input type="text" name="DD" class="fecha" placeholder="Dia">
+			<p id="lbl">Domicilio</p>
+			<input type="text" name="domicilio" id="domicilio">
+			<p id="lbl">Telefono</p>
+			<input type="text" name="telefono" id="telefono">
+			
+			<br>
+			<a href="Acceder">
+			<button onclick="alert('Cuenta Creada')" type="submit" value="procesardatos">Reistrar</button>
+			</a>
+		</form>
+
+
+
+
+		
+		
+		
+	</div>
+
+
+</body>
+</html>

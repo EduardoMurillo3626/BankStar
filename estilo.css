@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	font-family: 'Inter',sans-serif;
+	
+
+}
+.fondoRegistro{
+	/*imagen de fondo*/
+	background-image: url(https://www.bumeran.com.pe/noticias/wp-content/uploads/2018/08/2-ASESORÍA.jpg);
+	/*eliminar efecto mozaico*/
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+	background-size:cover ;
+}
+img{
+	height: 100%;
+	width: auto;
+	position: relative;
+	margin: 0px auto;
+}
+
+.Perfil{
+	height: 55px;
+	width: auto;
+
+}
+
+header{
+	background: #065AAD;
+	position: 100%;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px;
+
+}
+a{
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+	color: white;
+	font-size: 20px;
+	margin: 15px;
+	position:relative;
+}
+a:hover{
+	color: darkred;
+}
+
+.registro{
+	position: absolute;
+	width: 618px;
+	height: 676px;
+	left: 331px;
+	top: 132px;
+	background: rgba(1, 60, 118, 0.73);
+	border: 3px solid;
+	border-radius: 20px;
+	text-align: center;
+
+}
+input{
+width: 60%;
+}
+.fecha{
+	width: 19%;
+}
+button{
+	width: 50%;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+button:hover{
+	background: black;
+	color: white;
+}
+.formulario{
+	display: block;
+	margin: 0px auto;
+	color: white;
+	text-align: center;
+
+}
+/*slaider*/
+.imgS{
+	padding: 10px;
+	width: 100%;
+	height: 45%;
+
+}
+.slider{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+
+
+}
+.slider ul{
+	display: flex;
+	padding:0;
+	width: 400%;
+
+	animation-timing-function: ease-out;
+
+	animation: cambio 20s infinite alternate;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+
+@keyframes cambio{
+	0% {margin-left: 0; }
+	20% {margin-left: 0; }
+
+	25% {margin-left: -100%; }
+	45% {margin-left: -100%; }
+
+	50% {margin-left: -200%; }
+	70% {margin-left: -200%; }
+
+	75% {margin-left: -300%; }
+	100% {margin-left: -300%; }
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card {
+  width: 30%;
+  margin: 0 10px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.75s all ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-selected {
+  width: 90%;
+}
+
+
+

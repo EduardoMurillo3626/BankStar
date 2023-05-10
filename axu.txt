@@ -1,0 +1,46 @@
+
+
+// $insert = "INSERT INTO usuario (nombre, apellido, CURP, corre, contrasena, domicilio, telefono) VALUES ($NombreCliente, $ApellidoCliente, $CURP, $Correo, $password, $Domicilio, $Telefono)";
+
+// $con = mysqli_connect('localhost', 'root', '', 'bankstar');
+// mysqli_query($mysqli, $insert);
+// mysqli_close();
+
+<label for="year">ear</label>
+
+
+// $con=mysqli_connect('localhost','root','','bankstar');
+// $insert="INSERT INTO `usuario` (`nombre`, `apellido`, `CURP`, `corre`, `contrasena`, `domicilio`, `telefono`) 
+// VALUES ($NombreCliente','$ApellidoCliente','$CURP','$Correo','$password','$Domicilio','$Telefono')";
+// $resultado=mysqli_query($con,$insert);
+// if($resultado){
+// 	echo "Error al registrar";
+
+// }
+
+
+/*__________________________________________________________________________________*/
+
+/*
+INSERT INTO `usuario` (`Id_Usua`,rio `nombre`, `apellido`, `CURP`, `corre`, `contrasena`, `domicilio`, `telefono`) VALUES (NULL, 'diana', 'Jacinto', 'sipdmcimspmsce', 'posmcpempcmespo', 'posempmespc', 'hgmfm', '12312323');
+
+if(insset($_POST['Nombre_cliente'])&& !empty($_POST['Nombre_cliente']) &&
+   insset($_POST['Apellido_cliente'])&& !empty($_POST['Apellido_cliente']) &&
+   insset($_POST['CURP'])&& !empty($_POST['CURP']) &&
+   insset($_POST['correo'])&& !empty($_POST['correo']) &&
+   insset($_POST['password'])&& !empty($_POST['password']) &&
+   insset($_POST['Fecha_nacimiento'])&& !empty($_POST['Fecha_nacimiento']) &&
+   insset($_POST['Domicilio'])&& !empty($_POST['Domicilio']) &&
+   insset($_POST['Telefono'])&& !empty($_POST['Telefono']))
+{
+	$EnlaceBD= mysql_connect(localhost,root,123456,Bankstar)or die("no se a conectado la base de datos!");
+	mysql_select_db(Bankstar,$EnlaceBD)or die("no se puede conectar la BD");
+
+	mysql_query("INSERT INTO Usuario values(default,'$NombreCliente','$ApellidoCliente','$CURP','$Correo',
+		'$password','$Fecha','$Domicilio','$Telefono');
+	echo"Datos enviados correcatamente";
+}
+else{
+	echo"Error de datos";
+	}
+*/
